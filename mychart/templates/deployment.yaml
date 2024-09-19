@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: eks-sample-linux-deployment
-  namespace: kataokaap5
+  namespace: katakuruap5
   labels:
     app: eks-sample-linux-app
 spec:
@@ -28,7 +28,7 @@ spec:
                 - arm64
       containers:
       - name: nginx
-        image: 095817875435.dkr.ecr.ap-northeast-1.amazonaws.com/kataokaecr5:latest
+        image: 095817875435.dkr.ecr.ap-northeast-1.amazonaws.com/kataokaecr5
         ports:
         - name: http
           containerPort: 80
