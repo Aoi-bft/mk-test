@@ -4,5 +4,5 @@ helm:
     value: 992382571495.dkr.ecr.ap-northeast-1.amazonaws.com/kataokaecr5
     forcestring: true
   - name: image.tag
-    value: v1.1
+    value: v1.2
     forcestring: true
